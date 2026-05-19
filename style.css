@@ -1,80 +1,73 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body{
-    width:100%;
-    height: 100%;
-
+body {
+  width: 100%;
+  height: 100%;
 }
-main{
-    width: 100%;
-    height: 90vh;
-    background-color: #f4f1e8;
+main {
+  width: 100%;
+  height: 90vh;
+  background-color: #f4f1e8;
 }
-header{
-    background-color:#0d1016;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    color: white;
-    padding: 30px;
-   
+header {
+  background-color: #0d1016;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px;
 }
-nav ul{
-
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 10px;
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
 }
-nav a{
-    
-    text-decoration: none;
-    color: white;
+nav a {
+  text-decoration: none;
+  color: white;
 }
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-form{
-    min-width: 50vh;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    gap:10px;
-    background-color: #fefcf8;
-    color: #8a8170;
+form {
+  min-width: 50vw;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: #fefcf8;
+  color: #8a8170;
 }
-header span{
-    color: #93967a;
+header span {
+  color: #93967a;
 }
-div{
-    width: 100%;
-    height: 30px;
-    background-color: #1a1f2e;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    padding: 20px; 
-    border-top: 5px solid  #d94e01 ;  
+div {
+  width: 100%;
+  height: 30px;
+  background-color: #1a1f2e;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-top: 5px solid #d94e01;
 }
-div ul{
-    display: flex;
-    gap: 10px;
-    list-style: none;
+div ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
 }
-div a{
-    text-decoration: none;
-    color: azure;
+div a {
+  text-decoration: none;
+  color: azure;
 }
-
-
-
