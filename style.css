@@ -38,7 +38,7 @@ main {
   align-items: center;
 }
 form {
-  min-width: 50vw;
+  min-width: 50vmin;
   border: 2px solid black;
   margin: 20px;
   padding: 10px;
